@@ -1,6 +1,6 @@
-# Card Generator
+# AI Card Generator
 
-This project is a card generator that allows you to create custom cards for various purposes.
+This project is a card generator that allows you to create custom cards for various purposes. My propouse is to use the pictures as assets in the game I am building. Another Bedrock powered tool.
 
 ## Installation
 
