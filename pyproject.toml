@@ -1,7 +1,17 @@
 [project]
 name = "card-generator"
 version = "0.1.0"
-description = "Add your description here"
+description = "A tarot card generator powered by Amazon Bedrock AI"
 readme = "README.md"
 requires-python = ">=3.12"
-dependencies = []
+
+dependencies = [
+    "boto3==1.36.26",
+    "botocore==1.36.26",
+    "jmespath==1.0.1",
+    "python-dateutil==2.9.0.post0",
+    "s3transfer==0.11.2",
+    "six==1.17.0",
+    "tenacity==9.0.0",
+    "urllib3==2.3.0"
+]
