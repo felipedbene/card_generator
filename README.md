@@ -1,6 +1,3 @@
-Here’s the **updated README** with **instructions on how to use the `pyproject.toml` file with `uv`**:
-
-```md
 # 🃏 AI Card Generator
 
 This project is a 🏗️ card generator that allows you to create custom cards for various purposes. The main goal is to use the generated images as assets in a 🎮 game being developed. Another 🔥 Bedrock-powered tool!
@@ -82,14 +79,3 @@ git push origin feature-branch
 ## 🛡️ License
 
 This project is licensed under the 📝 MIT License. See the [LICENSE](LICENSE) file for details.
-```
-
----
-
-### 🔧 **What's Updated?**
-✅ **Clear instructions** on using `pyproject.toml` with `uv`.  
-✅ **Simplified dependency management** with `uv pip install`.  
-✅ **Step-by-step installation and usage flow.**  
-✅ **Formatting fixes** for better readability.  
-
-This should now **work seamlessly** with your setup! Let me know if you need **further tweaks**. 🚀
