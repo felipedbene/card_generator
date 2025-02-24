@@ -1,108 +1,80 @@
-# AI Card Generator
+# 🃏 AI Card Generator
 
-This project is a card generator that allows you to create custom cards for various purposes. My propouse is to use the pictures as assets in the game I am building. Another Bedrock powered tool.
+This project is a 🏗️ card generator that allows you to create custom cards for various purposes. The main goal is to use the generated images as assets in a 🎮 game being developed. Another 🔥 Bedrock-powered tool!
 
-## Installation
+## ⚙️ Installation
 
-1. Clone the repository:
+1️⃣ **Clone** the 📂 repository:
     ```bash
     git clone https://github.com/felipedbene/card_generator.git
     ```
-2. Navigate to the project directory:
+2️⃣ **Navigate** to the project 📂 directory:
     ```bash
     cd card_generator
     ```
-3. Install the required dependencies:
-    ```bash# Card Generator
-
-This project is a tarot card generator that uses AI to create a full deck of tarot cards while ensuring accurate symbolism. The generated images are saved locally, and users can configure S3 storage if needed.
-
-## Installation
-
-1. Clone the repository:
-    ```bash
-    git clone https://github.com/felipedbene/card_generator.git
-    ```
-2. Navigate to the project directory:
-    ```bash
-    cd card_generator
-    ```
-3. Install the required dependencies:
+3️⃣ **Install** the required 📦 dependencies:
     ```bash
     uv install
     ```
 
-4. Create a virtual environment:
+4️⃣ **Create** a 🏗️ virtual environment:
     ```bash
     uv venv init
     ```
 
-5. Activate the virtual environment:
+5️⃣ **Activate** the 🏗️ virtual environment:
     ```bash
     source .venv/bin/activate
     ```
 
-6. Install the project dependencies:
+6️⃣ **Install** the project 📦 dependencies:
     ```bash
     uv pip install -r requirements.txt
     ```
 
-## Usage
+## 🚀 Usage
 
-1. Run the card generator script:
+1️⃣ **Run** the 🃏 card generator script:
     ```bash
     python card_generator.py
     ```
-2. The script will generate a **full tarot deck** based on the predefined deck structure, ensuring accurate symbolism and consistency with traditional tarot readings.
+2️⃣ The script will generate a **full tarot deck** 🃏 based on the predefined deck 📜 structure, ensuring accurate 🎭 symbolism and consistency with traditional 🔮 tarot readings.
 
-3. The generated cards will be saved in a timestamped directory under `tarot_images/`, following the format:
+3️⃣ The generated 🖼️ cards will be saved in a ⏳ timestamped 📂 directory under `tarot_images/`, following the format:
     ```
     tarot_images/tarot_run-YYYYMMDD-HHMMSS/
     ```
-    Each file will be named according to the card title, e.g., `the_fool.png`, `the_magician.png`.
+    Each 📂 file will be named according to the 🃏 card title, e.g., `the_fool.png`, `the_magician.png`.
 
-4. You have to configure an S3 bucket by modifying the `S3_BUCKET` variable inside `card_generator.py`.
+4️⃣ You have to configure an ☁️ S3 bucket by modifying the `S3_BUCKET` variable inside `card_generator.py`.
 
-## Expected Results
+## 🎯 Expected Results
 
-After running the script, you should find a **complete 78-card tarot deck** in the corresponding timestamped directory within `tarot_images/`. The generated deck will closely resemble the reference tarot structure in both **composition and symbolic accuracy**.
+After running the script, you should find a **complete 78-card** 🔮 tarot deck in the corresponding ⏳ timestamped 📂 directory within `tarot_images/`. The generated deck will closely resemble the reference 🔍 tarot structure in both **composition and 🎭 symbolic accuracy**.
 
-Each card is generated with:
-- **Predefined descriptions** ensuring accurate representation.
-- **Symbolism matching traditional tarot interpretations.**
-- **Consistent framing and design across all cards.**
+Each 🃏 card is generated with:
+- 📜 **Predefined descriptions** ensuring accurate 🖼️ representation.
+- 🎭 **Symbolism** matching traditional 🔮 tarot interpretations.
+- 🎨 **Consistent framing and design** across all 🃏 cards.
 
-## Usage
+## 🤝 Contributing
 
-1. Run the card generator script:
-    ```bash
-    python card_generator.py
-    ```
-2. Follow the prompts to customize your card:
-    - Enter the card title
-    - Enter the card description
-    - Choose a template
-    - Customize the literals
-
-3. The generated card will be saved in the `output` directory with a filename based on the card title.
-
-## Contributing
-
-1. Fork the repository.
-2. Create a new branch:
+1️⃣ **Fork** the 📂 repository.
+2️⃣ **Create** a new 🌿 branch:
     ```bash
     git checkout -b feature-branch
     ```
-3. Make your changes and commit them:
+3️⃣ **Make changes** and 💾 commit them:
     ```bash
     git commit -m "Description of changes"
     ```
-4. Push to the branch:
+4️⃣ **Push** to the 🌿 branch:
     ```bash
     git push origin feature-branch
     ```
-5. Create a pull request.
+5️⃣ **Create** a 🔀 pull request.
 
-## License
+## 🛡️ License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the 📝 MIT License. See the [LICENSE](LICENSE) file for details.
+
